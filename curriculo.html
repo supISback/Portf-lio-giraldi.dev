@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Currículo</title>
+
+  <style>
+    body {
+      background: var(--bg-url) no-repeat center/cover;
+      font-family: "Inter", sans-serif;
+      color: var(--text-color);
+      text-align: center;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin: 0;
+    }
+
+    .cv-img {
+      width: 100%;
+      max-width: 700px;
+      border-radius: 12px;
+      border: 2px solid var(--stroke-color);
+    }
+
+    .voltar {
+      font-size: 18px;
+      color: var(--text-color);
+      text-decoration: none;
+      margin-top: 20px;
+    }
+
+    .voltar:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Meu Currículo</h1>
+
+  <!-- AQUI MOSTRA SÓ A IMAGEM, SEM LINK -->
+  <img src="meu-curriculo.png" class="cv-img" alt="Currículo">
+
+  <!-- Botão voltar -->
+  <a href="index.html" class="voltar">⬅ Voltar para a Página Inicial</a>
+
+</body>
+
+</html>
